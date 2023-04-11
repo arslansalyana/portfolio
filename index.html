@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6a77684e3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/6a77684e3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Caveat"
+    />
+    <title>Prototype</title>
+    <style>
+      /* General styling */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      body {
+        background-color: rgb(245, 245, 245);
+      }
+      li {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      /* Connect Styling */
+      .connect {
+        background-color: rgb(46, 44, 44);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+      }
+      .connect ul {
+        padding-left: 0;
+      }
+      .connect .social-handle ul {
+        display: flex;
+      }
+      .connect .contact ul {
+        display: flex;
+      }
+      .social-handle ul li a {
+        padding: 13px 25px;
+      }
+      .contact ul li a {
+        padding: 17px 25px;
+      }
+      .social-handle ul li a i {
+        font-size: 18px;
+      }
+      /* Header Styling */
+      .header {
+        background-color: rgb(255, 255, 255);
+        padding: 8px 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      .identity {
+        display: flex;
+        padding-left: 40px;
+      }
+      .identity .name {
+        padding-top: 18px;
+        padding-left: 10px;
+      }
+      .nav-links {
+        padding-right: 30px;
+      }
+      .nav-links ul {
+        display: flex;
+        padding-left: 0;
+        padding-top: 27px;
+      }
+      .nav-links ul li a {
+        padding: 20px 25px;
+        font-size: 22px;
+      }
+      /* Banner styling */
+      .text {
+        text-transform: capitalize;
+      }
+      .banner {
+        position: relative;
+      }
+      .banner-content {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        color: white;
+      }
+      .banner-content ul {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+      #firstone {
+        font-size: 50px;
+        font-family: caveat;
+        word-spacing: 6px;
+        padding-left: 20px;
+        padding-bottom: 35px;
+      }
+      .banner-content #secondone {
+        padding-top: 10px;
+        padding-left: 140px;
+        padding-bottom: 30px;
+        font-size: 70px;
+      }
+      .banner-content #thirdone {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+        font-size: 25px;
+        text-align: justify;
+      }
+      .banner-content ul button {
+        cursor: pointer;
+        background-color: rgb(233, 194, 20);
+        padding: 12px 22px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        margin-left: 470px;
+        font-weight: 500;
+      }
+      .banner-content ul button:hover {
+        background-color: rgb(100, 98, 98);
+        opacity: 0.8;
+        border: 1px solid white;
+        color: white;
+      }
+      /* services-container styling */
+      .services-container ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 0;
+        padding: 50px 40px;
+      }
+      .services-container ul li {
+        flex-basis: 30%;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        /* border: 0.5px solid grey; */
+      }
+      #icon {
+        font-size: 50px;
+        color: black;
+        padding-bottom: 25px;
+        margin-top: 20px;
+      }
+      .heading2 {
+        padding-bottom: 25px;
+      }
+      .services-button {
+        background-color: rgb(66, 65, 65);
+        padding: 12px 22px;
+        margin-top: 20px;
+        border: 1px solid grey;
+        border-radius: 3px;
+        color: #fff;
+      }
+      .services-button:hover {
+        background-color: transparent;
+        cursor: pointer;
+        color: black;
+      }
+      .services-img {
+        border: 2px solid grey;
+        border-radius: 4px;
+      }
+      .services-img:hover {
+        background-color: black;
+        opacity: 0.7;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="connect">
+      <div class="social-handle">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/muhammad.arslansalyana/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/muhammadarslansalyana/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/muhammad-arslan-75285b1a9/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="contact">
+        <ul>
+          <li><a href="tel:+923441471146">Call Us &nbsp; +923441471146</a></li>
+          <li>
+            <address>
+              <a href="mailto:muhammadarslansalyana@gmail.com">Email Us</a>
+            </address>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="header">
+      <div class="identity">
+        <div class="logo">
+          <a href="index.html">
+            <img src="Black-logo.png" alt="logo" width="70px" height="70px" />
+          </a>
+        </div>
+        <div class="name">
+          <h1>ARSLAN</h1>
+        </div>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="Home">Home</a></li>
+          <li><a href="About">About</a></li>
+          <li><a href="Service">Services</a></li>
+          <li><a href="Projects">Projects</a></li>
+          <li><a href="Blog">Blog</a></li>
+          <li><a href="Elements">Elements</a></li>
+          <li><a href="Contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="banner">
+      <img src="backg.jpg" width="100%" height="700px" />
+      <div class="banner-content">
+        <ul>
+          <li>
+            <p class="text" id="firstone">
+              Dont Look for shortcuts, success comes with struggle
+            </p>
+          </li>
+          <li>
+            <h1 class="text" id="secondone">We're Industrial solution</h1>
+          </li>
+          <li>
+            <p class="text" id="thirdone">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+              possimus dolorum amet, impedit odit autem est qui cumque incidunt
+              iure?
+            </p>
+          </li>
+          <li><button>Get Started</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="services-container">
+      <ul>
+        <li>
+          <img
+            class="services-img"
+            src="web.jpg"
+            width="350px"
+            height="250px"
+            alt=""
+          />
+          <i id="icon" class="fa-solid fa-laptop-code"></i>
+          <h2 class="heading2">Web Development</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            fugit voluptatem autem aspernatur, ad dolorum! Molestiae itaque
+            eveniet molestias veniam eligendi placeat adipisci sunt.
+          </p>
+          <button class="services-button">Read More</button>
+        </li>
+        <li>
+          <img
+            class="services-img"
+            src="app.jpg"
+            width="350px"
+            height="250px"
+            alt=""
+          />
+          <i id="icon" class="fa-brands fa-app-store-ios"></i>
+          <h2 class="heading2">App Development</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima at
+            asperiores accusamus molestiae in dolore eligendi placeat adipisci
+            sunt perferendis eligendi placeat adipisci sunt perferendis?
+          </p>
+          <button class="services-button">Read More</button>
+        </li>
+        <li>
+          <img
+            class="services-img"
+            src="game.jpg"
+            width="350px"
+            height="250px"
+            alt=""
+          />
+          <i id="icon" class="fa-solid fa-dice-d6"></i>
+          <h2 class="heading2">Game Development</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            officiis fugit ullam quas consequatur ipsa molestias placeat sunt
+            quo dicta ipsa molestias placeat sunt quo dicta. eligendi placeat
+            adipis.
+          </p>
+          <button class="services-button">Read More</button>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
